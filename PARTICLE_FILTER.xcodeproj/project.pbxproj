@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		45ABF6E3D5C3496687C58016 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D7462A77249D4DD898C0117A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EABA3FE5118043E3A49894D0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		709D9546DD61483898AB574A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6D1E7533C48A4FCE83F6A96D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1932F49FD6884F16A71013CC /* CMake Rules */,
+			);
+			dependencies = (
+				4303EF8C390E4F01A7B6ED20 /* PBXTargetDependency */,
+				00B8AA5D3AF0492AAF685998 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5F86DA6829544C18ACB6A00A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/map.h */ = {isa = PBXBuildFile; fileRef = F57E87C622DC4C5F902B2944 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/map.h */; };
+		7EC0D86C9DD84A089ED4A66A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */ = {isa = PBXBuildFile; fileRef = EE67A4495C7D4600B1BABD4A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */; };
+		873E66275A4F45CF84E9FADD /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0AFC28AFAC94474782ED7D52 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */; };
+		A5BFE596CFD648C19F2E8DD9 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/json.hpp */ = {isa = PBXBuildFile; fileRef = AC8D327B6BC54498BB074AD0 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/json.hpp */; };
+		B2C16A9CFCF24C3BA123A855 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/helper_functions.h */ = {isa = PBXBuildFile; fileRef = 59B0AE2DE56E4DA3BA93D17A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/helper_functions.h */; };
+		BDE2DD241DE44346AA6DCF04 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.h */ = {isa = PBXBuildFile; fileRef = 6FA84B94E3E940FF8B8F31F5 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.h */; };
+		CC8D4E14CE2842EC9DE1C044 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */ = {isa = PBXBuildFile; fileRef = D74423E2C75B4D6287B21882 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		05DE926AD8E94FFC87AD4F9E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7D92E5534B394F819AFAACBC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8413610708DB46C88245021A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E4675B8BB901448AAB7572C2 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		025AB76F44AE45459D907275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFBCE2CDDF74FA5B7AEB253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ABF6E3D5C3496687C58016;
+			remoteInfo = ZERO_CHECK;
+		};
+		648F3A9D8CF045268E7EF78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFBCE2CDDF74FA5B7AEB253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ABF6E3D5C3496687C58016;
+			remoteInfo = ZERO_CHECK;
+		};
+		991DC800CA054EBDA45890CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFBCE2CDDF74FA5B7AEB253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3C83528E1A49878D524794;
+			remoteInfo = particle_filter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AFC28AFAC94474782ED7D52 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		53171A6AAC9B45709CDC7A88 /* particle_filter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = particle_filter; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B0AE2DE56E4DA3BA93D17A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/helper_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = helper_functions.h; path = src/helper_functions.h; sourceTree = SOURCE_ROOT; };
+		6FA84B94E3E940FF8B8F31F5 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = particle_filter.h; path = src/particle_filter.h; sourceTree = SOURCE_ROOT; };
+		AC8D327B6BC54498BB074AD0 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/json.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = json.hpp; path = src/json.hpp; sourceTree = SOURCE_ROOT; };
+		BCCA9AB56B9841E489AD99AD /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CE2613872D3E47BE852D1548 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D74423E2C75B4D6287B21882 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = particle_filter.cpp; path = src/particle_filter.cpp; sourceTree = SOURCE_ROOT; };
+		EE67A4495C7D4600B1BABD4A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		F57E87C622DC4C5F902B2944 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/map.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = map.h; path = src/map.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2E1DD09BC6404190A26E6A8B /* particle_filter */ = {
+			isa = PBXGroup;
+			children = (
+				FC415CB425B1409B9F2A723A /* Source Files */,
+				9C6803620D94465083E1A5B7 /* Header Files */,
+				0AFC28AFAC94474782ED7D52 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */,
+			);
+			name = particle_filter;
+			sourceTree = "<group>";
+		};
+		66CEE7D61FAD41E9A13CFD78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53171A6AAC9B45709CDC7A88 /* particle_filter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		935BB273E64B43B29DEBCD72 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F34906CD3E594A299D443E27 /* CMake Rules */,
+				BCCA9AB56B9841E489AD99AD /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		9C6803620D94465083E1A5B7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				59B0AE2DE56E4DA3BA93D17A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/helper_functions.h */,
+				AC8D327B6BC54498BB074AD0 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/json.hpp */,
+				F57E87C622DC4C5F902B2944 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/map.h */,
+				6FA84B94E3E940FF8B8F31F5 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A7EF2978850546AEB7A2DFE2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D21057CBAF054DF0A46B842F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF2978850546AEB7A2DFE2 /* CMake Rules */,
+				CE2613872D3E47BE852D1548 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D4B545483E1B43E0B03EB90C = {
+			isa = PBXGroup;
+			children = (
+				2E1DD09BC6404190A26E6A8B /* particle_filter */,
+				D21057CBAF054DF0A46B842F /* ALL_BUILD */,
+				935BB273E64B43B29DEBCD72 /* ZERO_CHECK */,
+				66CEE7D61FAD41E9A13CFD78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34906CD3E594A299D443E27 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FC415CB425B1409B9F2A723A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE67A4495C7D4600B1BABD4A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */,
+				D74423E2C75B4D6287B21882 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3C83528E1A49878D524794 /* particle_filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF099ADF55748559DA53D4C /* Build configuration list for PBXNativeTarget "particle_filter" */;
+			buildPhases = (
+				7B1898628FA645CA9E0DFFE4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626E7027DADD48DD8D8D7D9A /* PBXTargetDependency */,
+			);
+			name = particle_filter;
+			productName = particle_filter;
+			productReference = 53171A6AAC9B45709CDC7A88 /* particle_filter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFBCE2CDDF74FA5B7AEB253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 88BDAF4F9BA541689508F099 /* Build configuration list for PBXProject "PARTICLE_FILTER" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				05DE926AD8E94FFC87AD4F9E /* Debug */,
+				7D92E5534B394F819AFAACBC /* Release */,
+				E4675B8BB901448AAB7572C2 /* MinSizeRel */,
+				8413610708DB46C88245021A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D4B545483E1B43E0B03EB90C;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				709D9546DD61483898AB574A /* ALL_BUILD */,
+				45ABF6E3D5C3496687C58016 /* ZERO_CHECK */,
+				CF3C83528E1A49878D524794 /* particle_filter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1932F49FD6884F16A71013CC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/adityaborde/Self-Driving-Car-ND/Term\\ 2/P3/CarND-Kidnapped-Vehicle-Project-master -f /Users/adityaborde/Self-Driving-Car-ND/Term\\ 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5F0483639950404F84B4850D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EABA3FE5118043E3A49894D0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/adityaborde/Self-Driving-Car-ND/Term\\ 2/P3/CarND-Kidnapped-Vehicle-Project-master -f /Users/adityaborde/Self-Driving-Car-ND/Term\\ 2/P3/CarND-Kidnapped-Vehicle-Project-master/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F067925C71D149878BF22B95 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1898628FA645CA9E0DFFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC0D86C9DD84A089ED4A66A /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */,
+				CC8D4E14CE2842EC9DE1C044 /* /Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B8AA5D3AF0492AAF685998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ABF6E3D5C3496687C58016 /* ZERO_CHECK */;
+			targetProxy = 025AB76F44AE45459D907275 /* PBXContainerItemProxy */;
+		};
+		4303EF8C390E4F01A7B6ED20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3C83528E1A49878D524794 /* particle_filter */;
+			targetProxy = 991DC800CA054EBDA45890CE /* PBXContainerItemProxy */;
+		};
+		626E7027DADD48DD8D8D7D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ABF6E3D5C3496687C58016 /* ZERO_CHECK */;
+			targetProxy = 648F3A9D8CF045268E7EF78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01EF05D2C9B64E1D93C6674A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2653A7A09E064CC8977AC358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = Debug;
+		};
+		286D5062A19340B2AC78677F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		30F353685DC94784A7BC99F5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = MinSizeRel;
+		};
+		4A1BD94EC3D04EE49846A49F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5282501F5A2F4C809220E7FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6B6633FD0B3944A18316D22C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		949E02C37C5043DBB7A93EA4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		970F3C16916C4CA3A2AF1069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = Release;
+		};
+		9A8FE2D611704E5A85D8066F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9BAF16B156C446A9966238F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9DA63B3DD41A4DEB8F7D71EE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD38EE81998749CB809BDF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B02232E08C3146AEB2F82A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "     -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C86CA16C3F2F4B8CB1C25731 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F5B2C8C3E278465097059BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/adityaborde/Self-Driving-Car-ND/Term 2/P3/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D1E7533C48A4FCE83F6A96D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAF16B156C446A9966238F3 /* Debug */,
+				AD38EE81998749CB809BDF87 /* Release */,
+				9DA63B3DD41A4DEB8F7D71EE /* MinSizeRel */,
+				949E02C37C5043DBB7A93EA4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88BDAF4F9BA541689508F099 /* Build configuration list for PBXProject "PARTICLE_FILTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2653A7A09E064CC8977AC358 /* Debug */,
+				970F3C16916C4CA3A2AF1069 /* Release */,
+				30F353685DC94784A7BC99F5 /* MinSizeRel */,
+				C86CA16C3F2F4B8CB1C25731 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7462A77249D4DD898C0117A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B2C8C3E278465097059BCB /* Debug */,
+				9A8FE2D611704E5A85D8066F /* Release */,
+				4A1BD94EC3D04EE49846A49F /* MinSizeRel */,
+				286D5062A19340B2AC78677F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCF099ADF55748559DA53D4C /* Build configuration list for PBXNativeTarget "particle_filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02232E08C3146AEB2F82A80 /* Debug */,
+				01EF05D2C9B64E1D93C6674A /* Release */,
+				5282501F5A2F4C809220E7FD /* MinSizeRel */,
+				6B6633FD0B3944A18316D22C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AFBCE2CDDF74FA5B7AEB253 /* Project object */;
+}
